@@ -1,0 +1,32 @@
+
+
+.strike{
+    text-decoration:line-through;
+    color:gray  ;
+}
+#edit-input{
+    width:50rem !important;
+}
+#input{
+    font-size:1.12rem;
+}
+/* .remove{
+    
+} */
+.fa-circle-check{
+    font-size:2rem;
+}
+.fa-circle-check:hover{
+    font-size:2rem !important;
+
+}
+.fa-pen-to-square{
+    font-size:1.19rem;
+}
+.fa-pen-to-square:hover{
+    font-size:1.23rem;
+}
+li{
+    transition:3s;
+}
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>TodoList</title>
+
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- <p class="text-xl font-semibold mt-2 text-[#063c76]">To-do List</p> -->
+
+<!-- <div class="flex justify-center items-center min-h-screen bg-[#cbd7e3]">
+    <div class="h-auto w-96 bg-white rounded-lg p-4">
+        
+        <div class="flex mt-4">
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 mr-4 text-grey-darker" placeholder="Add Todo">
+                <button class="flex-no-shrink p-2 border-2 rounded text-teal border-teal hover:text-white hover:bg-teal">Add</button>
+            </div>
+        <ul class="my-4 ">
+            <li class=" mt-4" id="1">
+                <div class="flex gap-2">
+                    <div class="w-9/12 h-12 bg-[#e0ebff] rounded-[7px] flex justify-start items-center px-3"> <span id="check1" class=" w-7 h-7 bg-white rounded-full border border-white transition-all cursor-pointer hover:border-[#36d344] flex justify-center items-center" onclick="checked(1)"><i class="text-white fa fa-check"></i></span> </div> 
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</div> -->
+<div class="flex justify-center items-center bg-gray-300 min-h-screen">
+    
+    <div class="min-h-[35rem] md:w-3/6 px-2 w-96 bg-white rounded-lg">
+        <p class="text-xl font-semibold mt-2 text-[#063c76]">To-do List</p>
+        <div class="input_text relative"> <input class="text-sm h-12 w-full my-4 pr-20 md:pr-28 outline-none pl-[2.8rem]" id="input" type="text" placeholder="Write a new task"> <button class="add_task text-sm transition-all hover:bg-blue-700 cursor-pointer text-white bg-blue-400 rounded-lg h-10 w-16 md:w-24 absolute right-1 top-[20px]" id="add-btn">Add task</button> <i class="absolute top-[27px] text-gray-600 text-[1.7rem] left-2 fa fa-pencil-square"></i> </div>
+        <ul class="all_tasks">
+            <!-- <li id="1" class="">
+                <hr class="mt-2" style="height:2px;background-color:rgb(169, 168, 168);">
+                <div class="my-4 flex justify-between px-1 ">
+                    <div class="flex items-center gap-2"> <span onclick="tick(1)" class="h-8 cursor-pointer w-8 flex justify-center items-center border border-gray-600 rounded-full "><i id="checked1" class="transition-all hover:text-lg text-blue-500 hover:text-blue-900 fa fa-check"></i></span>
+                        <p class="md:max-w-[375px] truncate max-w-[280px]  ">hi this is john doe</p>
+                    </div> 
+                    <div class="flex gap-[10px]"><span onclick="trash(1)" class="h-8 cursor-pointer w-8 flex justify-center items-center border border-gray-600 rounded-full "><i class="transition-all hover:text-lg text-green-600 hover:text-red-900 fa-solid fa-pen-to-square"></i>
+                    </span>
+                    <span onclick="trash(1)" class="h-8 cursor-pointer w-8 flex justify-center items-center border border-gray-600 rounded-full "><i class="transition-all hover:text-lg text-red-600 hover:text-red-900 fa fa-trash"></i>
+                    </span>
+                </div>
+                    
+                    
+                </div>
+            </li> -->
+            
+        </ul>
+
+        
+    </div>
+</div>
+
+
+<input type="text" id="df" autocomplete="off">
+<button id="area">click</button>
+
+
+
+    
+    <script src="./script.js"></script>
+</body>
+</html>
