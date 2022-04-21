@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="/dist/output.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing:border-box;
+            padding:0px;
+            margin:0px;
+        }
+        .card-signin,input{
+                backdrop-filter: blur(6px) saturate(156%);
+    -webkit-backdrop-filter: blur(6px) saturate(160%);
+    background-color: rgba(72, 72, 73, 0.29);
+        border: 2px solid rgba(255, 255, 255, 0.4);
+        }
+    </style>
+</head>
+<body class="overflow-hidden">
+
+    <div class="img w-[100%] h-[100%] bg-red-600 overflow-hidden relative">
+        <img class="w-[100%] h-[100%]" src="../asset/signin2.avif" alt="">
+    </div>
+    <section class="w-[100%] h-[100vh] flex items-center justify-center absolute top-[0px] left-[0%]">
+        <article class="w-[30%] h-[80%] bg-[#b6bbbf] rounded-[1rem]  card-signin">
+            <form action="">
+            <h1 class="text-[3.6rem] text-[#d4d0d0] text-center my-[2.5rem]">User Login</h1>
+             <input type="email" class="h-[3rem] p-[1.18rem] rounded-[2rem] flex items-center w-[18rem] ml-[4rem] text-[#d6d1d1] border-0.8px border-[rgba(120, 120, 121, 0.29)] outline-[#c8c6c6] focus:border-0 placeholder:text-[#e2e2e2]" placeholder="Email or Username">
+              <input type="password" class="h-[3rem] p-[1.18rem] rounded-[2rem] flex items-center w-[18rem] ml-[4rem] text-[#d6d1d1] border-0.8px border-[rgba(120, 120, 121, 0.29)] outline-[#c8c6c6] focus:border-0 placeholder:text-[#e2e2e2] my-[1.7rem]" placeholder="Password">
+              <h1 class="text-center text-[#e9e7e7] mb-[1.2rem]">New User? <a href="./signup.html" class="text-[#ffff] cur underline cursor-pointer">Sign Up</a></h1>
+
+               <button type="submit"
+               class="bg-[#2e57ecf1] h-[2.8rem] w-[10rem] rounded-[2rem] text-white font-[500] text-[1.05rem] hover:scale-105 duration-75
+                ml-[8rem]">
+                    Log in
+                </button>
+            </form>
+                 <h1 class="text-center text-[#e9e7e7] my-[1.2rem] text-[1.2rem]">or sign with</h1>
+                <div class="socials m-[auto] w-[35%] flex items-center gap-[1rem]">
+                    <i class="fa-brands fa-facebook text-[2rem] text-[#dbd9d9] cursor-pointer hover:scale-[1.06] duration-75"></i>
+                    <i class="fa-brands fa-google text-[1.65rem] text-[#dbd9d9] cursor-pointer hover:scale-[1.06] duration-75"></i>
+                    <i class="fa-brands fa-instagram text-[1.65rem] text-[#dbd9d9] cursor-pointer hover:scale-[1.06] duration-75"></i>
+                    <i class="fa-brands fa-twitter text-[1.65rem] text-[#dbd9d9] cursor-pointer hover:scale-[1.06] duration-75"></i>
+
+                </div>
+
+        </article>
+    </section>
+
+    
+</body>
+</html>
